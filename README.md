@@ -7,24 +7,29 @@ CRUD application used Laravel Framework and React.
 
 ## Steps to make this project work
 
-- Clone the repository on your computer
+1. Clone the repository on your computer
 ```sh
 git clone git@github.com:sreynaga/laravel-react.git
 ```
 
-- Install the dependencies
+2. Go to the project folder
+```sh
+cd laravel-react
+```
+
+3. Install the dependencies
 ```sh
 composer install
 ```
 
-- Duplicate the `.env.example` file with the name `.env`
+4. Duplicate the `.env.example` file with the name `.env`
 
 - Set your application key to a random string
 ```sh
 php artisan key:generate
 ```
 
-- Clear your configuration cache
+5. Clear your configuration cache
 ```sh
 php artisan config:clear
 ```
