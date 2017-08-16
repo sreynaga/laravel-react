@@ -34,4 +34,8 @@ php artisan key:generate
 php artisan config:clear
 ```
 
-**Enjoy it! :)**
+## License
+MIT
+
+
+### Enjoy it! :)
