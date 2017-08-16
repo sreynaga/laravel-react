@@ -24,12 +24,12 @@ composer install
 
 4. Duplicate the `.env.example` file with the name `.env`
 
-- Set your application key to a random string
+5. Set your application key to a random string
 ```sh
 php artisan key:generate
 ```
 
-5. Clear your configuration cache
+6. Clear your configuration cache
 ```sh
 php artisan config:clear
 ```
